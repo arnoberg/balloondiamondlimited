@@ -78,3 +78,12 @@ gulp.task('dev', ['css', 'browserSync'], function() {
   gulp.watch('./scss/*.scss', ['css']);
   gulp.watch('./*.html', browserSync.reload);
 });
+
+// Prod task
+gulp.task('build', function() {
+  connect.server({
+    root: [code/balloon/balloon],
+    port: process.env.PORT || 5000, // localhost:5000
+    livereload: false
+  });
+});
