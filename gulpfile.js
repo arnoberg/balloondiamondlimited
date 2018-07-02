@@ -82,7 +82,7 @@ gulp.task('dev', ['css', 'browserSync'], function() {
 // Prod task
 gulp.task('build', function() {
   connect.server({
-    root: [code/balloon/balloon],
+    // root: [code/balloon/balloon],
     port: process.env.PORT || 5000, // localhost:5000
     livereload: false
   });
