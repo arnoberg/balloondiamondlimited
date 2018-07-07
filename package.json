@@ -37,5 +37,9 @@
     "devDependencies": {
         "gulp-clean-css": "3.9.4",
         "browser-sync": "2.24.3"
-        }
+    },
+
+    "scripts": {
+        "heroku-postbuild": "gulp"
+    }
 }
