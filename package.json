@@ -32,13 +32,12 @@
         "gulp-header": "2.0.5",
         "gulp-rename": "^1.2.2",
         "gulp-sass": "4.0.1"
-    
     },
     "devDependencies": {
+        "browser-sync": "2.24.3",
         "gulp-clean-css": "3.9.4",
-        "browser-sync": "2.24.3"
+        "gulp-uglify": "^3.0.0"
     },
-
     "scripts": {
         "heroku-postbuild": "gulp"
     }
