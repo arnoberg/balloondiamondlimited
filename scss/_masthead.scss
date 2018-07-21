@@ -1,66 +1,44 @@
-header.masthead {
+.masthead {
   position: relative;
-  overflow: hidden;
-  padding-top: calc(7rem + 72px);
-  padding-bottom: 7rem;
-  background: linear-gradient(0deg, $secondary 0%, $primary 100%);
+  width: 100%;
+  height: auto;
+  min-height: 35rem;
+  padding: 15rem 0;
+  background: linear-gradient(to bottom, #{fade-out($black, .9)} 0%,#{fade-out($black, .5)} 75%,$black 100%), url('../img/bg-masthead.jpg');
+  background-position: center;
   background-repeat: no-repeat;
-  background-position: center center;
   background-attachment: scroll;
   background-size: cover;
-  .masthead-content {
-    z-index: 1;
-    position: relative;
-    .masthead-heading {
+  h1 {
+    font-family: 'Varela Round';
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+    letter-spacing: 0.8rem;
+    background: -webkit-linear-gradient(fade-out(white, 0.1), fade-out(white, 1));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+  }
+  h2 {
+    max-width: 20rem;
+    font-size: 1rem;
+  }
+  @media(min-width: 768px) {
+    h1 {
       font-size: 4rem;
-    }
-    .masthead-subheading {
-      font-size: 2rem;
+      line-height: 4rem;
     }
   }
-  .bg-circle {
-    z-index: 0;
-    position: absolute;
-    border-radius: 100%;
-    background: linear-gradient(0deg, $primary 0%, $secondary 100%);
-  }
-  .bg-circle-1 {
-    height: 90rem;
-    width: 90rem;
-    bottom: -55rem;
-    left: -55rem;
-  }
-  .bg-circle-2 {
-    height: 50rem;
-    width: 50rem;
-    top: -25rem;
-    right: -25rem;
-  }
-  .bg-circle-3 {
-    height: 20rem;
-    width: 20rem;
-    bottom: -10rem;
-    right: 5%;
-  }
-  .bg-circle-4 {
-    height: 30rem;
-    width: 30rem;
-    top: -5rem;
-    right: 35%;
-  }
-}
-
-@media (min-width: 992px) {
-  header.masthead {
-    padding-top: calc(10rem + 55px);
-    padding-bottom: 10rem;
-    .masthead-content {
-      .masthead-heading {
-        font-size: 6rem;
-      }
-      .masthead-subheading {
-        font-size: 4rem;
-      }
+  @media(min-width: 992px) {
+    height: 100vh;
+    padding: 0;
+    h1 {
+      font-size: 6.5rem;
+      line-height: 6.5rem;
+      letter-spacing: 0.8rem;
+    }
+    h2 {
+      max-width: 30rem;
+      font-size: 1.25rem;
     }
   }
 }
