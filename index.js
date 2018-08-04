@@ -14,9 +14,10 @@ app.use(bodyParser.urlencoded({extended: true}))
 
 // enable ssl redirect
 app.use(sslRedirect());
+app.use(compression())
 
-app.use(compression('/public', express.static(path.join(__dirname + "/public"))));
-app.use(compression('/vendor', express.static(path.join(__dirname + "/vendor"))));
+app.use('/public', express.static(path.join(__dirname + "/public")));
+app.use('/vendor', express.static(path.join(__dirname + "/vendor")));
 
 app.listen(port);
 console.log('Magic happens on port ' + port);
