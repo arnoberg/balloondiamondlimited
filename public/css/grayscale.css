@@ -85,7 +85,7 @@
   height: auto;
   min-height: 35rem;
   padding: 15rem 0;
-  background: linear-gradient(to top, rgba(22, 22, 22, 0.1) 0%, rgba(22, 22, 22, 0.5) 75%, #161616 100%), url("../img/dubai.jpg");
+  background: linear-gradient(to top, rgba(22, 22, 22, 0.1) 0%, rgba(22, 22, 22, 0.5) 75%, #161616 100%), url("../img/DBbackground.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -247,7 +247,6 @@
   border-color: #64a19d;
   border-width: 0.25rem;
   width: 3rem;
-  font-size: 0.1rem;
 }
 
 .contact-section .social {
