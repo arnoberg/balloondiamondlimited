@@ -1,4 +1,4 @@
 RewriteEngine On
 RewriteBase /
 RewriteCond %{HTTP_HOST} !^diamondballoon.com$ [NC]
-RewriteRule ^(.*)$ https://diamondballoon.com/$1 [L,R=301]
+RewriteRule ^(.*)$ https://www.diamondballoon.com/$1 [L,R=301]
