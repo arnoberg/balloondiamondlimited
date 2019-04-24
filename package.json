@@ -29,23 +29,23 @@
     "url": "https://github.com/BlackrockDigital/startbootstrap-stylish-portfolio.git"
   },
   "dependencies": {
-    "bootstrap": "^4.0.0-beta",
-    "compression": "^1.7.3",
-    "cookie-parser": "^1.4.3",
-    "express": "^4.16.3",
+    "bootstrap": "^4.3.1",
+    "compression": "^1.7.4",
+    "cookie-parser": "^1.4.4",
+    "express": "^4.16.4",
     "express-favicon": "^2.0.0",
     "express-flash": "0.0.2",
-    "express-session": "^1.15.6",
+    "express-session": "^1.16.1",
     "font-awesome": "4.7.0",
     "heroku-ssl-redirect": "0.0.4",
-    "jquery": "^3.2.1",
+    "jquery": "^3.4.0",
     "jquery.easing": "^1.4.1",
-    "mongodb": "^3.0.2",
-    "nodemailer": "^4.6.4",
-    "popper.js": "^1.11.1",
+    "mongodb": "^3.2.3",
+    "nodemailer": "^4.7.0",
+    "popper.js": "^1.15.0",
     "serve-favicon": "^2.5.0"
   },
   "devDependencies": {
     "browser-sync": "2.18.13"
-    }
+  }
 }
