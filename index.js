@@ -26,7 +26,13 @@ app.get('/', function(req, res) {
     res.sendFile(path.join(__dirname + '/index.html'));
 });
 
+app.get('/video.html', function(req, res) {
+    res.sendFile(path.join(__dirname + '/video.html'));
+});
+
 app.get('/index.html', function(req, res) {
     res.sendFile(path.join(__dirname + '/index.html'));
 });
+
+
 
