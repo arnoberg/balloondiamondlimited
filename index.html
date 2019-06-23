@@ -12,7 +12,7 @@
     <title>Diamond Balloon Limited</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
 
     <!-- Custom fonts for this template -->
     <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
@@ -20,6 +20,7 @@
 
     <!-- Custom styles for this template -->
     <link href="public/css/grayscale.css" rel="stylesheet">
+    <link rel="stylesheet" href="public/css/plyr.css">
 
   </head>
 
@@ -36,9 +37,9 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
-            <!-- <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#about">Introduction</a>
-            </li> -->
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#video">Video</a>
+            </li>
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#product">Product</a>
             </li>
@@ -68,6 +69,9 @@
       </div>
     </header>
 
+
+
+
     <!-- about Section -->
     <section id="about" class="about-section text-center">
       <div class="container">
@@ -83,6 +87,25 @@
 
         <!-- <img src="public/img/ipad.png" class="img-fluid" alt=""> -->
       </div>
+    </section>
+
+    <!-- video Player -->
+    <section id="video" data-target="#video">
+        
+      <div class="embed-responsive embed-responsive-16by9">
+        <iframe class="embed-responsive-item" src=https://player.vimeo.com/video/337150630?loop=false&amp;byline=false&amp;portrait=false&amp;title=false&amp;speed=true&amp;transparent=0&amp;gesture=media" allowfullscreen></iframe>
+      </div>
+      
+      
+      
+        <!-- <div class="plyr__video-embed" id="player">
+            <iframe
+                src="https://player.vimeo.com/video/337150630?loop=false&amp;byline=false&amp;portrait=false&amp;title=false&amp;speed=true&amp;transparent=0&amp;gesture=media"
+                allowfullscreen
+                allowtransparency
+                allow="autoplay"
+            ></iframe>  
+        </div> -->
     </section>
 
     <!-- Product Section -->
