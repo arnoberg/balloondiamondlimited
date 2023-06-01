@@ -37,6 +37,7 @@
     "express-flash": "0.0.2",
     "express-session": "^1.17.2",
     "font-awesome": "4.7.0",
+    "heroku": "^8.1.6",
     "heroku-ssl-redirect": "0.0.4",
     "jquery": "^3.6.0",
     "jquery.easing": "^1.4.1",
@@ -48,5 +49,13 @@
   },
   "devDependencies": {
     "browser-sync": "2.18.13"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "heroku-postbuild": "npm install",
+    "heroku-prebuild": "npm run build",
+    "deploy": "git push heroku master"
   }
+  
+  
 }
